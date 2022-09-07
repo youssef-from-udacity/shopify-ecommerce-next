@@ -74,6 +74,7 @@ const CartItem = ({
           { options && options.length > 0 &&
             (options.map((option) => {
               const value = option.values[0]
+              console.log('option.values -- ',option.values)
               return (
                 <Swatch
                   key={`${item.id}-${option.displayName}`}

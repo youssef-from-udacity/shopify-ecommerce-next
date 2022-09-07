@@ -17,8 +17,8 @@ const Usernav: FC = () => {
   return (
     <nav>
       <ul className={s.list}>
-        <li className={s.item}>
-          <Cart onClick={openSidebar}/>
+        <li className={s.item} onClick={openSidebar}>
+          <Cart />
           { itemsCount > 0 &&
             <span className={s.bagCount}>
               { itemsCount }

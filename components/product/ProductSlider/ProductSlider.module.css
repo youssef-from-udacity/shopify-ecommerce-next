@@ -22,18 +22,14 @@
   @apply bg-cover left-10;
   background-image: url('public/cursor-left.png');
 
-  @screen md {
-    @apply left-6;
-  }
+  @apply md:right-6;
 }
 
 .rightControl {
   @apply bg-cover right-10;
   background-image: url('public/cursor-right.png');
 
-  @screen md {
-    @apply right-6;
-  }
+  @apply md:right-6;
 }
 
 .control {
@@ -47,10 +43,8 @@
 .positionIndicatorsContainer {
   @apply hidden;
 
-  @screen sm {
-    @apply block absolute bottom-6 left-1/2;
-    transform: translateX(-50%);
-  }
+  @apply sm:block sm:absolute sm:bottom-6 sm:left-1/2;
+  transform: translateX(-50%);
 }
 
 .positionIndicator {

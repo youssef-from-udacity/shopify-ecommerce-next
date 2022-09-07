@@ -25,6 +25,8 @@ const ProductView: FC<Props> = ({ product }) => {
 
   const addToCart = async () => {
     try {
+      const variant = getVariant(product, choices)
+
       const item = {
         productId: String(product.id),
         variantId: String(variant ? variant.id : product.variants[0].id),

@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-next",
+  "name": "shopify-ecommerce-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -29,7 +29,7 @@
     "postcss-cli": "^8.3.1",
     "postcss-nesting": "^8.0.1",
     "prettier": "^2.3.1",
-    "tailwindcss": "^2.1.4",
+    "tailwindcss": "^3.4.3",
     "typescript": "^4.3.2"
   }
 }

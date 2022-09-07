@@ -59,12 +59,12 @@
   line-height: 2.2em;
 
   & span {
-    @apply py-4 px-6 bg-primary;
+    @apply py-4 px-6 text-white;
     box-decoration-break: clone;
   }
 }
 
 .productPrice {
-  @apply bg-primary pb-4 pt-2 px-6 font-semibold text-sm;
+  @apply pb-4 pt-2 px-6 font-semibold text-sm text-white;
   letter-spacing: 0.4px;
 }

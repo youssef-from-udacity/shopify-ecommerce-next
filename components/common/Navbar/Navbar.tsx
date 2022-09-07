@@ -13,21 +13,21 @@ const Navbar: FC = () => {
         <div className="flex flex-1 items-center">
           <Link href="/">
             <a className={s.logo}>
-              NEXT_STORE
+            PixelParadise
             </a>
           </Link>
           <nav className="ml-6 space-x-6">
             <Link href="/">
-              <a className={s.link}>All</a>
+              <a className={s.link}>Explore</a>
             </Link>
             <Link href="/">
-              <a className={s.link}>Clothes</a>
+              <a className={s.link}>Apparel</a>
             </Link>
             <Link href="/">
-              <a className={s.link}>Accesories</a>
+              <a className={s.link}>Add-Ons</a>
             </Link>
             <Link href="/">
-              <a className={s.link}>Shoes</a>
+              <a className={s.link}>Footwear</a>
             </Link>
           </nav>
           <div className="flex flex-1 justify-end space-x-8">

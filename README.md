@@ -1,28 +1,31 @@
+# Shopify Ecommerce Next.js Project
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Original Project can be found here: [Next.js Ecommerce](https://github.com/vercel/commerce)
-All credits for the design and type of the architecture goes to
-mantainers of this project
+The original project can be found [here](https://github.com/vercel/commerce). All credits for the design and architecture go to the maintainers of this project.
 
 ## Getting Started
 
-In the file called:
-```
+Before running the project, make sure to rename the file:
+
 .env.local[duplicate]
-```
 
-remove [duplicate] so file is called ```.env.local```
 
-Install the dependencies:
+to:
+
+.env.local
+
+
+This file contains environment variables required for the project.
+
+### Installation
+
+First, install the dependencies:
 
 ```bash
 npm install
-```
+Running the Development Server
+To run the development server, use the following command:
 
-Run the development server:
-
-```bash
 npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to see the result.

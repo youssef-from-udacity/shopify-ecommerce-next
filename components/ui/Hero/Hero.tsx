@@ -12,7 +12,7 @@ interface Props {
 
 const Hero: FC<Props> = ({headline, description}) => {
   return (
-    <div className="bg-black">
+    <div className="bg-gray-800">
       <Container>
         <div className={s.root}>
           <h2 className={s.headline}>
@@ -24,7 +24,7 @@ const Hero: FC<Props> = ({headline, description}) => {
             </p>
             <Link href="/">
               <a className={s.link}>
-                Read it here
+                Read more
               </a>
             </Link>
           </div>

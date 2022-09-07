@@ -30,5 +30,3 @@ export default function Wishlist() {
     </Container>
   )
 }
-
-Wishlist.Layout = Layout
